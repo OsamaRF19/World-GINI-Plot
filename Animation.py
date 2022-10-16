@@ -5,7 +5,7 @@ from matplotlib.animation import FuncAnimation
 
 
 #Loading the excel file
-path = '/home/osamaa/Documents/World Gini Mean/gini_world_mean.xlsx'
+path = 'Insert File Path here'
 df = pd.read_excel(path)
 #Renaming the Column
 df.rename(columns = {'Unnamed: 0':'Year'}, inplace = True)
